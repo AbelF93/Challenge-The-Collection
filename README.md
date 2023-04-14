@@ -1,1 +1,1 @@
-# Consolidation-Challenge
+# The Horror Game Collection
