@@ -1,0 +1,100 @@
+* {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(../assets/resources/Fonts/GravediggerPersonalUse-K7ayW.ttf);
+}
+body {
+  padding: 50px 20px;
+}
+body header #pageLogo {
+  border: 0px;
+  width: 100%;
+}
+body header h1 {
+  font-style: oblique;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body header .title {
+  font-family: myFont;
+  font-size: 1.5em;
+  -webkit-text-decoration: 1px underline rgb(150, 20, 20);
+          text-decoration: 1px underline rgb(150, 20, 20);
+  text-decoration-style: dotted double;
+  text-underline-offset: 6px;
+  color: rgb(185, 185, 185);
+}
+body header .title strong {
+  text-align: center;
+  width: 100%;
+}
+body header .purpose {
+  font-size: 1em;
+  color: rgb(255, 254, 254);
+  padding-top: 10%;
+}
+body header .purpose .pPurpose {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-bottom: 20px;
+}
+body .gamePic {
+  border: 3px solid rgb(138, 0, 0);
+  border-radius: 0 15%;
+  width: 40%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+article {
+  padding: 25px 10px;
+  margin-top: 10px;
+  margin-top: 30px;
+  border: 3px solid red;
+  border-radius: 10% 2%;
+  background-color: rgba(138, 0, 0, 0.5);
+  height: 319px;
+  width: 300px;
+}
+article .movInfos {
+  display: flex;
+}
+article .movInfos .data {
+  align-content: center;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+article .pCard {
+  padding-top: 5px;
+}
+
+@media screen and (min-width: 400px) {
+  header {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  header #pageLogo {
+    max-width: 300px;
+  }
+  header .headerText {
+    max-width: 600px;
+  }
+  header .headerText .purpose {
+    padding-top: 5%;
+  }
+  section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  section article {
+    height: 250px;
+    width: 375px;
+    margin: 25px 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
